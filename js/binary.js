@@ -55,19 +55,19 @@ function updateMenuActiveButton(buttonId) {
 updateMenuActiveButton("btn-binary");
 
 document.getElementById("btn-binary").addEventListener("click", function () {
-  window.location.href = "../index.html";
+  window.location.href = "./index.html";
 });
 
 document.getElementById("btn-filter").addEventListener("click", function () {
-  window.location.href = "../menu/filter.html";
+  window.location.href = "./menu/filter.html";
 });
 
 document
   .getElementById("btn-morphology")
   .addEventListener("click", function () {
-    window.location.href = "../menu/morphology.html";
+    window.location.href = "./menu/morphology.html";
   });
 
 document.getElementById("btn-labeling").addEventListener("click", function () {
-  window.location.href = "../menu/labeling.html";
+  window.location.href = "./menu/labeling.html";
 });
