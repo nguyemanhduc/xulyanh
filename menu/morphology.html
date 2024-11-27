@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Các toán tử hình thái</title>
+  </head>
+  <body>
+    <div class="menu">
+      <button id="btn-binary" class="menu-btn">Nhị phân hóa ảnh</button>
+      <button id="btn-filter" class="menu-btn">Lọc nhiễu</button>
+      <button id="btn-morphology" class="menu-btn">
+        Các toán tử hình thái
+      </button>
+      <button id="btn-labeling" class="menu-btn">
+        Đánh nhãn thành phần liên thông
+      </button>
+    </div>
+    <input type="file" id="upload" accept="image/*" /><br />
+    <label for="morphType">Chọn toán tử:</label>
+    <select id="morphType">
+      <option value="dilation">Co</option>
+      <option value="erosion">Giãn</option>
+      <option value="erosion">Đóng</option>
+      <option value="erosion">Mở</option>
+    </select>
+    <button id="applyMorph" class="apply-btn">Áp dụng</button>
+    <canvas id="morphCanvas" width="500" height="500"></canvas>
+
+    <script src="../js/morphology.js"></script>
+  </body>
+</html>

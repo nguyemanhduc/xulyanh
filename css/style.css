@@ -1,0 +1,63 @@
+/* Menu styling */
+.menu {
+  background-color: #333;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.menu-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: #45a049;
+}
+
+.menu-btn:active {
+  background-color: red;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* General canvas styling */
+canvas {
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+
+/* Button styling */
+.apply-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #45a049;
+}
+
+.apply-btn:active {
+  background-color: red;
+}
+/* Cập nhật màu sắc của các nút khi đang được chọn */
+.menu-btn.active {
+  background-color: red;
+}

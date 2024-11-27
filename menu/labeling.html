@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Đánh nhãn thành phần liên thông</title>
+  </head>
+  <body>
+    <div class="menu">
+      <button id="btn-binary" class="menu-btn">Nhị phân hóa ảnh</button>
+      <button id="btn-filter" class="menu-btn">Lọc nhiễu</button>
+      <button id="btn-morphology" class="menu-btn">
+        Các toán tử hình thái
+      </button>
+      <button id="btn-labeling" class="menu-btn">
+        Đánh nhãn thành phần liên thông
+      </button>
+    </div>
+    <input type="file" id="upload" accept="image/*" /><br />
+    <button id="applyLabeling" class="apply-btn">Áp dụng</button>
+    <canvas id="labelCanvas" width="500" height="500"></canvas>
+
+    <script src="../js/labeling.js"></script>
+  </body>
+</html>
